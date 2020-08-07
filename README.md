@@ -31,3 +31,6 @@ Now it’s time to roll out these procedures to the identified customers. For th
 	
 	•	Provide this transaction suggestion details to a designated Kafka topic so that downstream application can make use of it to actually send it through SMS.
 
+
+
+Detailed Solution in Result_Summary-GH.pdf
