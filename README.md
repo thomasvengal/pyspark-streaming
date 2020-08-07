@@ -14,10 +14,10 @@ Now you have to wear your hat of Security expect! Use the referred dataset and d
 
 Part  3:
 Now it’s time to roll out these procedures to the identified customers. For that purpose, you need to process the customer transaction details received through the Kafka topic. You can think of the following activities to be carried out on the stream of customer data within the Apache Spark.
-•	Preprocessing on the incoming messages
-•	Determining the customer type either good or bad
-•	Filtering out the customers based on their transaction type.
-•	Join the customer stream with the customer dataset
-•	Propose a suitable alert to the transaction approval team based on the enriched data stream
-•	Provide this transaction suggestion details to a designated Kafka topic so that downstream application can make use of it to actually send it through SMS.
+	•	Preprocessing on the incoming messages
+	•	Determining the customer type either good or bad
+	•	Filtering out the customers based on their transaction type.
+	•	Join the customer stream with the customer dataset
+	•	Propose a suitable alert to the transaction approval team based on the enriched data stream
+	•	Provide this transaction suggestion details to a designated Kafka topic so that downstream application can make use of it to actually send it through SMS.
 
