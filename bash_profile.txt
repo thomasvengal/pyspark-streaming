@@ -1,0 +1,6 @@
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/
+export SPARK_HOME=/Users/tvengal/opt/anaconda3/lib/python3.7/site-packages/pyspark
+export PATH=$PATH:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/bin:$SPARK_HOME/bin:/Users/tvengal/software/kafka/bin
+export PYSPARK_DRIVER_PYTHON=jupyter
+export PYSPARK_DRIVER_PYTHON_OPTS='notebook'
+echo "Successfully Ran Path Setting"
