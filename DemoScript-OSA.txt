@@ -1,0 +1,22 @@
+Downloaded data set from  https://www.kaggle.com/ntnu-testimon/paysim1 (494MB)
+
+This is used for training
+
+
+
+1. Create a new File Stream
+	Input as FinTransactionData_Test2.csv
+	select first row as metadata
+	map data types as float
+2. Create Query Stage
+	Add a column "type_" and mark as =float(1.1)
+	#Convert datatypes to Float using =float(variable name)
+3. Add Rule
+	Add rules to update "type_"
+	CASH_IN=0, CASH_OUT=1, DEBIT=2,PAYMENT =3, TRANSFER=4, 
+
+4. Create a Scoring Model
+	Input fin_pay_frayd-rf.pmml
+	Give version no
+5. Add MLStage and map the fields
+	Check the data
